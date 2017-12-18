@@ -5,69 +5,59 @@ Adds a variety of fruit tools and other fruit-related items to Minetest.
 Fruit tools will occasionally drop the fruit they are made when used, this fuctionality can be adjusted in init.lua (See "Settings" section of this document).
 
 * Admin pick (IMPORTANT NOTE: Please see "Settings" section of this document)
-
-Tool capabilities:
+** Tool capabilities:
         full_punch_interval: 0.1
         max_drop_level: 3
         groupcaps: 0 for everything
         fleshy: 100
         Note: can break cloud
 * Corn pick
-
-Tool capabilities:
+** Tool capabilities:
         full_punch_interval: 0.9
         max_drop_level: 3
         cracky: {times={[1]=2.0, [2]=1.0, [3]=0.50}, uses=30, maxlevel=3}
         fleshy: 5
 * Bean hoe
-
-Tool capabilities:
+** Tool capabilities:
         uses: 1000
 * Raspberry axe
-
-Tool capabilities:
+** Tool capabilities:
         full_punch_interval: 0.9
         max_drop_level: 1
         choppy: {times={[1]=1.90, [2]=0.80, [3]=0.40}, uses=50, maxlevel=2}
         fleshy: 7
 * Melon axe
-
-Tool capabilities:
+** Tool capabilities:
         full_punch_interval: 0.9
         max_drop_level: 1
         choppy: {times={[1]=1.80, [2]=0.70, [3]=0.30}, uses=70, maxlevel=2}
         fleshy: 7
 * Grape shovel
-
-Tool capabilities:
+** Tool capabilities:
         full_punch_interval: 1.0
         max_drop_level: 1
         crumbly: {times={[1]=1.00, [2]=0.40, [3]=0.20}, uses=50, maxlevel=3}
         fleshy: 4
 * Apple shovel
-
-Tool capabilities:
+** Tool capabilities:
         full_punch_interval: 1.0
         max_drop_level: 1
         crumbly: {times={[1]=0.9, [2]=0.30, [3]=0.10}, uses=80, maxlevel=3}
         fleshy: 4
 * Chili sword
-
-Tool capabilities:
+** Tool capabilities:
         full_punch_interval: 0.5
         max_drop_level: 1
         snappy: {times={[1]=1.85, [2]=0.80, [3]=0.25}, uses=60, maxlevel=3}
         fleshy: 8
 * Carrot sword
-
-Tool capabilities:
+** Tool capabilities:
         full_punch_interval: 0.5
         max_drop_level: 1
         snappy: {times={[1]=1.70, [2]=0.70, [3]=0.20}, uses=80, maxlevel=3}
         fleshy: 9
 * Golden carrot sword
-
-Tool capabilities:
+** Tool capabilities:
         full_punch_interval: 0.4
         max_drop_level: 1
         snappy: {times={[1]=1.65, [2]=0.60, [3]=0.15}, uses=100, maxlevel=3}
@@ -142,8 +132,7 @@ r = Tool Resin
 Fruit sheilds will occasionally drop the fruit they are made when hit (fruit placed in hitter's inventory), this fuctionality can be adjusted in init.lua (See "Settings" section of this document).
 
 * Orange Sheild
-
-Shield Capabilities:
+** Shield Capabilities:
         armor_heal: 16
         armor_use: 100
         fleshy: 16
@@ -151,8 +140,7 @@ Shield Capabilities:
         snappy: 1
         level: 3
 * Tomato Sheild
-
-Shield Capabilities:
+** Shield Capabilities:
         armor_heal: 15
         armor_use: 150
         fleshy: 15
