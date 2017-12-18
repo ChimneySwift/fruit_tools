@@ -4,9 +4,11 @@ Adds a variety of fruit tools and other fruit-related items to Minetest.
 ![alt text](https://github.com/ChimneySwift/fruit_tools/blob/master/screenshot.png "All of the Fruit Tools")
 
 **Code license:** [MIT](https://opensource.org/licenses/MIT)
+
 **Textures license:** [MIT](https://opensource.org/licenses/MIT)
 
 **Dependencies:** farming, default, bucket, vessels
+
 **Optional Dependencies:** mobs, 3d_armor
 
 ## Tools:
