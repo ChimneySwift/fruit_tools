@@ -1,6 +1,8 @@
 # Fruit Tools
 Adds a variety of fruit tools and other fruit-related items to Minetest.
 
+![alt text](https://github.com/ChimneySwift/fruit_tools/blob/master/screenshot.png "All of the Fruit Tools")
+
 ## Tools:
 Fruit tools will occasionally drop the fruit they are made when used, this fuctionality can be adjusted in init.lua (See "Settings" section of this document).
 
