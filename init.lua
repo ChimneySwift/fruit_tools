@@ -549,7 +549,7 @@ if minetest.get_modpath("mobs") then
         else
             -- If failed to get description, do our best to capitalise the food name so it looks right and log a warning
             description = food:sub(1,1):upper()..food:sub(2)
-            minetest.log("warning", "[fruit_tools]: failed to get description for food: farming:"..foodname)
+            minetest.log("warning", "[fruit_tools]: failed to get description for food: "..foodname)
         end
 
         mobs:register_arrow(modname..":"..food.."_entity", {
