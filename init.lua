@@ -4,7 +4,7 @@
 
 -- Settings:
 
--- Replace weed pick with cucumber pick when set to true - capabilities of both picks are hte same
+-- Replace weed pick with pickle pick when set to true - capabilities of both picks have the same capabilities
 local say_no_to_cannabis = false
 
 -- Every time the tool is used, it will randomly also drop the fruit the tool is made out of, configure quantities of fruit and chance here:
@@ -343,24 +343,24 @@ local pick_description = "Weed Pickaxe"
 local pick_priv = "dealer"
 
 if say_no_to_cannabis == false then
-    minetest.register_alias("fruit_tools:pick_cucumber", "fruit_tools:pick_weed")
+    minetest.register_alias("fruit_tools:pick_pickle", "fruit_tools:pick_weed")
 
     minetest.register_privilege("dealer", {
         description = "Players can use the Weed Pick with this priv.",
         give_to_singleplayer = false,
     })
 else
-    minetest.register_alias("fruit_tools:pick_weed", "fruit_tools:pick_cucumber")
+    minetest.register_alias("fruit_tools:pick_weed", "fruit_tools:pick_pickle")
 
-    minetest.register_privilege("cucumberpick", {
-        description = "Players can use the Cucumber Pick with this priv.",
+    minetest.register_privilege("picklepick", {
+        description = "Players can use the Pickle Pick with this priv.",
         give_to_singleplayer = false,
     })
 
-    pick_name = "fruit_tools:pick_cucumber"
-    pick_image = "pick_cucumber.png"
-    pick_description = "Cucumber Pickaxe"
-    pick_priv = "cucumberpick"
+    pick_name = "fruit_tools:pick_pickle"
+    pick_image = "pick_pickle.png"
+    pick_description = "Pickle Pickaxe"
+    pick_priv = "picklepick"
 end
 
 minetest.register_tool(pick_name, {
