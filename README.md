@@ -3,6 +3,12 @@ Adds a variety of fruit tools and other fruit-related items to Minetest.
 
 ![alt text](https://github.com/ChimneySwift/fruit_tools/blob/master/screenshot.png "All of the Fruit Tools")
 
+**Code license:** [MIT](https://opensource.org/licenses/MIT)
+**Textures license:** [MIT](https://opensource.org/licenses/MIT)
+
+**Dependencies:** farming, default, bucket, vessels
+**Optional Dependencies:** mobs, 3d_armor
+
 ## Tools:
 Fruit tools will occasionally drop the fruit they are made when used, this fuctionality can be adjusted in init.lua (See "Settings" section of this document).
 
@@ -207,6 +213,10 @@ By default, when a throwable food hits an unprotected dirt node, it will place a
 
 ## Notes
 * This mod is a work in progress, tool capabilities etc. are subject to change, the code is still slightly messy, if you have any suggestions for improvements, start a GitHub issue, comment on the minetest forums (forum.minetest.net) or modify the code and create a pull request.
+
+* Satisfy optional dependency "mobs" for throwing foods and optional dependency "3darmor" for sheilds.
+
+* The dependancy "farming" refers to TenPlus1's farming_redo, not the farming mod from minetest_game.
 
 ## Changelog
 * No changes yet!
