@@ -5,7 +5,7 @@
 -- Settings:
 
 -- Replace weed pick with cucumber pick when set to true - capabilities of both picks are hte same
-local say_no_to_cannabis = true
+local say_no_to_cannabis = false
 
 -- Every time the tool is used, it will randomly also drop the fruit the tool is made out of, configure quantities of fruit and chance here:
 -- Enable or disable extra drops (default is true)
