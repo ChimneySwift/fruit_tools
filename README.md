@@ -4,126 +4,111 @@ Adds a variety of fruit tools and other fruit-related items to Minetest.
 ## Tools:
 Fruit tools will occasionally drop the fruit they are made when used, this fuctionality can be adjusted in init.lua (See "Settings" section of this document).
 
-* Admin pick (IMPORTANT NOTE: Please see "Settings" section of this document)
-** Tool capabilities:
-        full_punch_interval: 0.1
-        max_drop_level: 3
-        groupcaps: 0 for everything
-        fleshy: 100
-        Note: can break cloud
-* Corn pick
-** Tool capabilities:
-        full_punch_interval: 0.9
-        max_drop_level: 3
-        cracky: {times={[1]=2.0, [2]=1.0, [3]=0.50}, uses=30, maxlevel=3}
-        fleshy: 5
-* Bean hoe
-** Tool capabilities:
-        uses: 1000
-* Raspberry axe
-** Tool capabilities:
-        full_punch_interval: 0.9
-        max_drop_level: 1
-        choppy: {times={[1]=1.90, [2]=0.80, [3]=0.40}, uses=50, maxlevel=2}
-        fleshy: 7
-* Melon axe
-** Tool capabilities:
-        full_punch_interval: 0.9
-        max_drop_level: 1
-        choppy: {times={[1]=1.80, [2]=0.70, [3]=0.30}, uses=70, maxlevel=2}
-        fleshy: 7
-* Grape shovel
-** Tool capabilities:
-        full_punch_interval: 1.0
-        max_drop_level: 1
-        crumbly: {times={[1]=1.00, [2]=0.40, [3]=0.20}, uses=50, maxlevel=3}
-        fleshy: 4
-* Apple shovel
-** Tool capabilities:
-        full_punch_interval: 1.0
-        max_drop_level: 1
-        crumbly: {times={[1]=0.9, [2]=0.30, [3]=0.10}, uses=80, maxlevel=3}
-        fleshy: 4
-* Chili sword
-** Tool capabilities:
-        full_punch_interval: 0.5
-        max_drop_level: 1
-        snappy: {times={[1]=1.85, [2]=0.80, [3]=0.25}, uses=60, maxlevel=3}
-        fleshy: 8
-* Carrot sword
-** Tool capabilities:
-        full_punch_interval: 0.5
-        max_drop_level: 1
-        snappy: {times={[1]=1.70, [2]=0.70, [3]=0.20}, uses=80, maxlevel=3}
-        fleshy: 9
-* Golden carrot sword
-** Tool capabilities:
-        full_punch_interval: 0.4
-        max_drop_level: 1
-        snappy: {times={[1]=1.65, [2]=0.60, [3]=0.15}, uses=100, maxlevel=3}
-        fleshy: 10
+- Admin pick (IMPORTANT NOTE: Please see "Settings" section of this document)
+  - Tool capabilities:
+      - full_punch_interval: 0.1
+      - max_drop_level: 3
+      - groupcaps: 0 for everything
+      - fleshy: 100
+      - Note: can break cloud
+- Corn pick
+  - Tool capabilities:
+      - full_punch_interval: 0.9
+      - max_drop_level: 3
+      - cracky: {times={[1]=2.0, [2]=1.0, [3]=0.50}, uses=30, maxlevel=3}
+      - fleshy: 5
+- Bean hoe
+  - Tool capabilities:
+      - uses: 1000
+- Raspberry axe
+  - Tool capabilities:
+      - full_punch_interval: 0.9
+      - max_drop_level: 1
+      - choppy: {times={[1]=1.90, [2]=0.80, [3]=0.40}, uses=50, maxlevel=2}
+      - fleshy: 7
+- Melon axe
+  - Tool capabilities:
+      - full_punch_interval: 0.9
+      - max_drop_level: 1
+      - choppy: {times={[1]=1.80, [2]=0.70, [3]=0.30}, uses=70, maxlevel=2}
+      - fleshy: 7
+- Grape shovel
+  - Tool capabilities:
+      - full_punch_interval: 1.0
+      - max_drop_level: 1
+      - crumbly: {times={[1]=1.00, [2]=0.40, [3]=0.20}, uses=50, maxlevel=3}
+      - fleshy: 4
+- Apple shovel
+  - Tool capabilities:
+      - full_punch_interval: 1.0
+      - max_drop_level: 1
+      - crumbly: {times={[1]=0.9, [2]=0.30, [3]=0.10}, uses=80, maxlevel=3}
+      - fleshy: 4
+- Chili sword
+  - Tool capabilities:
+      - full_punch_interval: 0.5
+      - max_drop_level: 1
+      - snappy: {times={[1]=1.85, [2]=0.80, [3]=0.25}, uses=60, maxlevel=3}
+      - fleshy: 8
+- Carrot sword
+  - Tool capabilities:
+      - full_punch_interval: 0.5
+      - max_drop_level: 1
+      - snappy: {times={[1]=1.70, [2]=0.70, [3]=0.20}, uses=80, maxlevel=3}
+      - fleshy: 9
+- Golden carrot sword
+  - Tool capabilities:
+      - full_punch_interval: 0.4
+      - max_drop_level: 1
+      - snappy: {times={[1]=1.65, [2]=0.60, [3]=0.15}, uses=100, maxlevel=3}
+      - fleshy: 10
 
 ### Crafting:
 Pick:
-|-|-|-|
-|m|m|m|
-|-|-|-|
-|r|s|r|
-|-|-|-|
-|r|s|r|
-|-|-|-|
+m|m|m
+-|-|-
+r|s|r
+r|s|r
 
 m = Pick material (Eg: for Corn Pick it would be Corn on the Cob)
 s = Stick
 r = Tool Resin
 
 Hoe:
-|-|-|-|
-|m|m| |
-|-|-|-|
-|r|s|r|
-|-|-|-|
-|r|s|r|
-|-|-|-|
+m|m|×
+-|-|-
+r|s|r
+r|s|r
 
 m = Hoe material (Eg: for Bean Hoe it would be Green Beans)
 s = Stick
 r = Tool Resin
 
 Axe:
-|-|-|-|
-|r|m|m|
-|-|-|-|
-|r|s|m|
-|-|-|-|
-|r|s|r|
-|-|-|-|
+r|m|m
+-|-|-
+r|s|m
+r|s|r
 
 m = Axe material (Eg: for Melon Axe it would be Melon Slice)
 s = Stick
 r = Tool Resin
 
 Shovel:
-|-|-|-|
-| |m| |
-|-|-|-|
-|r|s|r|
-|-|-|-|
-|r|s|r|
-|-|-|-|
+×|m|×
+-|-|-
+r|s|r
+r|s|r
 
 m = Shovel material (Eg: for Apple Shovel it would be Apple)
 s = Stick
 r = Tool Resin
 
 Sword:
-|-|-|-|
-| |m| |
-|-|-|-|
-|r|m|r|
-|-|-|-|
-|r|m|r|
-|-|-|-|
+×|m|×
+-|-|-
+r|m|r
+r|m|r
 
 m = Sword material (Eg: for Carrot Sword it would be Carrot)
 r = Tool Resin
@@ -131,32 +116,29 @@ r = Tool Resin
 ## Shields:
 Fruit sheilds will occasionally drop the fruit they are made when hit (fruit placed in hitter's inventory), this fuctionality can be adjusted in init.lua (See "Settings" section of this document).
 
-* Orange Sheild
-** Shield Capabilities:
-        armor_heal: 16
-        armor_use: 100
-        fleshy: 16
-        cracky: 2
-        snappy: 1
-        level: 3
-* Tomato Sheild
-** Shield Capabilities:
-        armor_heal: 15
-        armor_use: 150
-        fleshy: 15
-        cracky: 2
-        snappy: 1
-        level: 3
+- Orange Sheild
+  - Shield Capabilities:
+      - armor_heal: 16
+      - armor_use: 100
+      - fleshy: 16
+      - cracky: 2
+      - snappy: 1
+      - level: 3
+- Tomato Sheild
+  - Shield Capabilities:
+      - armor_heal: 15
+      - armor_use: 150
+      - fleshy: 15
+      - cracky: 2
+      - snappy: 1
+      - level: 3
 
 ### Crafting:
 
-|-|-|-|
-|m|r|m|
-|-|-|-|
-|r|m|r|
-|-|-|-|
-| |r| |
-|-|-|-|
+m|r|m
+-|-|-
+r|m|r
+×|r|×
 
 m = Sheild material (Eg: for Carrot Sword it would be Carrot)
 r = Tool Resin
@@ -177,25 +159,19 @@ Throwing foods can be crafted from regular food. They look like regular food, bu
 ### Crafting
 
 Throwing food:
-|-|-|-|
-|f|f|f|
-|-|-|-|
-|f|s|f|
-|-|-|-|
-|f|f|f|
-|-|-|-|
+f|f|f
+-|-|-
+f|s|f
+f|f|f
 
 f = Food material (Eg: for Throwing Tomato it would be Tomato)
 s = Stone
 
 Regular food (to revert back):
-|-|-|-|
-|f|f|f|
-|-|-|-|
-|f|f|f|
-|-|-|-|
-|f|f|f|
-|-|-|-|
+f|f|f
+-|-|-
+f|f|f
+f|f|f
 
 f = Throwing food (Eg: for Tomato it would be Throwing Tomato)
 
