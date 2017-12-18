@@ -65,52 +65,66 @@ Fruit tools will occasionally drop the fruit they are made when used, this fucti
 
 ### Crafting:
 Pick:
+
 m|m|m
 -|-|-
 r|s|r
 r|s|r
 
 m = Pick material (Eg: for Corn Pick it would be Corn on the Cob)
+
 s = Stick
+
 r = Tool Resin
 
 Hoe:
+
 m|m|×
 -|-|-
 r|s|r
 r|s|r
 
 m = Hoe material (Eg: for Bean Hoe it would be Green Beans)
+
 s = Stick
+
 r = Tool Resin
 
 Axe:
+
 r|m|m
 -|-|-
 r|s|m
 r|s|r
 
 m = Axe material (Eg: for Melon Axe it would be Melon Slice)
+
 s = Stick
+
 r = Tool Resin
 
 Shovel:
+
 ×|m|×
 -|-|-
 r|s|r
 r|s|r
 
 m = Shovel material (Eg: for Apple Shovel it would be Apple)
+
 s = Stick
+
 r = Tool Resin
 
 Sword:
+
 ×|m|×
 -|-|-
 r|m|r
 r|m|r
 
 m = Sword material (Eg: for Carrot Sword it would be Carrot)
+
 r = Tool Resin
 
 ## Shields:
@@ -141,6 +155,7 @@ r|m|r
 ×|r|×
 
 m = Sheild material (Eg: for Carrot Sword it would be Carrot)
+
 r = Tool Resin
 
 ## Throwing Foods:
@@ -159,15 +174,18 @@ Throwing foods can be crafted from regular food. They look like regular food, bu
 ### Crafting
 
 Throwing food:
+
 f|f|f
 -|-|-
 f|s|f
 f|f|f
 
 f = Food material (Eg: for Throwing Tomato it would be Tomato)
+
 s = Stone
 
 Regular food (to revert back):
+
 f|f|f
 -|-|-
 f|f|f
