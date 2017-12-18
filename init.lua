@@ -704,3 +704,15 @@ if minetest.get_modpath("mobs") then
     fruit_tools:register_throwing_food("fruit_tools", "ethereal:orange", nil, nil, false, nil)
     fruit_tools:register_throwing_food("fruit_tools", "ethereal:strawberry", nil, nil, false, nil)
 end
+
+-- Add toolranks support if found
+if minetest.get_modpath("toolranks") then
+    for i, p in ipairs(tool_item_pairs) do
+        local original_description = minetest.registered_tools[p.tool].description
+        minetest.override_item(p.tool, {
+            original_description = original_description,
+            description = toolranks.create_description(original_description, 0, 1),
+            after_use = toolranks.new_afteruse
+        })
+    end
+end
