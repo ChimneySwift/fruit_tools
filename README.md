@@ -205,7 +205,7 @@ f = Throwing food (Eg: for Tomato it would be Throwing Tomato)
 
 ## Settings
 ### Admin Pick Settings:
-By default the admin pick is set to the "Weed Pick", if you do not wish for your world to contain cannabis (aka weed) references, simply set the `say_no_to_cannabis` variable on line 8 of init.lua to `true`, this will replace the "Weed Pick" with the "Cucumber Pick" (both tools have the same capabilities), if you do not wish for your world to contain cucumber references then we can't help you, sorry.
+By default the admin pick is set to the "Weed Pick", if you do not wish for your world to contain cannabis (aka weed) references, simply set the `say_no_to_cannabis` variable on line 8 of init.lua to `true`, this will replace the "Weed Pick" with the "Pickle Pick" (both tools have the same capabilities), if you do not wish for your world to contain pickle references then we can't help you, sorry.
 
 ### Extra Drops:
 By default when a shield is hit, or a fruit tool is used, there is a 1 in 5 chance that between 1 and 5 of the shield/tool's food is also dropped. To enable/disable this set `extra_drops` on line 12 of `init.lua` to `false`. To change the drop chance change `extra_drop_chance` on line 14 of `init.lua`, to change the drop maximum change `extra_drop_max` on line 16 of `init.lua` and to change the drop minimum change `extra_drop_min` on line 18 of `init.lua`.
