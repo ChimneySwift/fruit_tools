@@ -20,7 +20,7 @@ Fruit tools will occasionally drop the fruit they are made when used, this fucti
       - max_drop_level: 3
       - groupcaps: 0 for everything
       - fleshy: 100
-      - Note: can break cloud
+      - Note: can break cloud, requires additional privs for use (picklepick/dealer depending on which pick is enabled)
 - Corn pick
   - Tool capabilities:
       - full_punch_interval: 0.9
